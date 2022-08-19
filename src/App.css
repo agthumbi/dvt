@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+ 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+.card{
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+.modal.show .modal-dialog {
+
+   max-width: 60% !important; 
+   ;
 }
